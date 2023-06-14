@@ -15,7 +15,7 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!-- 
     - google font link
@@ -63,7 +63,7 @@
 
           <li>
             <a href="#home" class="navbar-link" data-nav-link>
-              <span>Inicio</span>
+              <span>Home</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
             </a>
@@ -71,15 +71,15 @@
 
           <li>
             <a href="#about" class="navbar-link" data-nav-link>
-              <span>Sobre Nosotros</span>
+              <span>About</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="./assets/html/index.html" class="navbar-link" data-nav-link>
-              <span>Lugares</span>
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Service</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
             </a>
@@ -87,7 +87,7 @@
 
           <li>
             <a href="#donate" class="navbar-link" data-nav-link>
-              <span>Establecimientos</span>
+              <span>Donate</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
             </a>
@@ -95,7 +95,7 @@
 
           <li>
             <a href="#event" class="navbar-link" data-nav-link>
-              <span></span>
+              <span>Event</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
             </a>
@@ -133,219 +133,25 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
+    <section class="hero" id="home">
+      <div class="container">
 
-      <section class="hero" id="home">
-        <div class="container">
+        <p class="section-subtitle">
+          <img src="../images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
 
-          <p class="section-subtitle">
-            <img src="./assets/images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
+          <span>TCER Places</span>
+        </p>
 
-            <span>Bienvenidos</span>
-          </p>
+        <h2 class="h1 hero-title">
+          Lugares <strong>Turísticos</strong>
+        </h2>
 
-          <h2 class="h1 hero-title">
-            TCER <strong>Places</strong>
-          </h2>
+        <p class="hero-text">
+          Descubre los mejores lugares turísticos de Jarabacoa el paraíso de las montañas.
+        </p>
 
-          <p class="hero-text">
-            Descubre los mejores lugares turísticos de Jarabacoa el paraíso de las montañas.
-          </p>
-
-          <button class="btn btn-primary">
-            <span>Donación</span>
-
-            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-          </button>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #FEATURES
-      -->
-
-      <section class="section features">
-        <div class="container">
-
-          <ul class="features-list">
-
-            <li class="features-item">
-              <div class="item-icon">
-                <ion-icon name="shield-checkmark-outline"></ion-icon>
-              </div>
-
-              <div>
-                <h3 class="h4 item-title">Seguridad</h3>
-
-                <p class="item-text">
-                </p>
-              </div>
-            </li>
-
-            <li class="features-item">
-              <div class="item-icon">
-                <ion-icon name="leaf-outline"></ion-icon>
-              </div>
-
-              <div>
-                <h3 class="h4 item-title">Ambiente</h3>
-
-                <p class="item-text">
-                  
-                </p>
-              </div>
-            </li>
-
-            <li class="features-item">
-              <div class="item-icon">
-                <ion-icon name="snow-outline"></ion-icon>
-              </div>
-
-              <div>
-                <h3 class="h4 item-title">Clima</h3>
-
-                <p class="item-text">
-                </p>
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about">
-        <div class="container">
-
-          <div class="about-banner">
-
-            <h2 class="deco-title">About Us</h2>
-
-            <img src="./assets/images/deco-img.png" width="58" height="261" alt="" class="deco-img">
-
-            <div class="banner-row">
-
-              <div class="banner-col">
-                <img src="./assets/images/avenida.jpeg" width="315" height="380" loading="lazy" alt="Tiger"
-                  class="about-img w-100">
-
-                <img src="./assets/images/jimenoa 2.jpeg" width="386" height="250" loading="lazy" alt="Panda"
-                  class="about-img about-img-2 w-100">
-              </div>
-
-              <div class="banner-col">
-                <img src="./assets/images/jamaca.jpeg" width="250" height="277" loading="lazy" alt="Elephant"
-                  class="about-img about-img-3 w-100">
-
-                <img src="./assets/images/cafe-colao.jpeg" width="315" height="380" loading="lazy" alt="Deer"
-                  class="about-img w-100">
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">
-              <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
-
-              <span>TCER Places</span>
-            </p>
-
-            <h2 class="h2 section-title">
-              En la naturaleza está la preservación del mundo.<strong>Jarabacoa</strong>
-            </h2>
-
-            <ul class="tab-nav">
-
-              <li>
-                <button class="tab-btn active">Our Mission</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Our Vision</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Next Plan</button>
-              </li>
-
-            </ul>
-
-            <div class="tab-content">
-
-              <p class="section-text">
-                No conocerás la verdadera magia de este pueblo montañoso si no cabalgas o vas en motocicleta a lo largo de sus verdes campos perfumados con cilantro y tayota, atravesando campos con vacas pastando, ríos bajo árboles de mango, y casitas de madera en las montañas.
-              </p>
-
-              <ul class="tab-list">
-
-                <li class="tab-item">
-                  <div class="item-icon">
-                    <ion-icon name="checkmark-circle"></ion-icon>
-                  </div>
-
-                  <p class="tab-text">Aventuras</p>
-                </li>
-
-                <li class="tab-item">
-                  <div class="item-icon">
-                    <ion-icon name="checkmark-circle"></ion-icon>
-                  </div>
-
-                  <p class="tab-text">Clima</p>
-                </li>
-
-                <li class="tab-item">
-                  <div class="item-icon">
-                    <ion-icon name="checkmark-circle"></ion-icon>
-                  </div>
-
-                  <p class="tab-text">Hospedaje</p>
-                </li>
-
-                <li class="tab-item">
-                  <div class="item-icon">
-                    <ion-icon name="checkmark-circle"></ion-icon>
-                  </div>
-
-                  <p class="tab-text">Ambiente</p>
-                </li>
-
-              </ul>
-
-              <button class="btn btn-secondary">
-                <span>Learn More Us</span>
-
-                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-              </button>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
+      </div>
+    </section>
 
       <!-- 
         - #CTA
@@ -365,7 +171,7 @@
           </div>
 
           <figure class="cta-banner">
-            <img src="./assets/images/cta-banner.jpg" width="520" height="228" loading="lazy" alt="Fox"
+            <img src="..//images/cta-banner.jpg" width="520" height="228" loading="lazy" alt="Fox"
               class="img-cover">
           </figure>
 
@@ -384,7 +190,7 @@
         <div class="container">
 
           <p class="section-subtitle">
-            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+            <img src="../images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
 
             <span>TCER Places</span>
           </p>
@@ -469,7 +275,7 @@
 
 
       <!-- 
-        - #DONATE
+        - #DONATE-->
       
 
       <section class="section donate" id="donate">
@@ -481,7 +287,7 @@
               <div class="donate-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/donate-1.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                  <img src="../images/Picoduarte.jpg" width="520" height="325" loading="lazy" alt="Elephant"
                     class="img-cover">
                 </figure>
 
@@ -489,9 +295,7 @@
 
                   <div class="progress-wrapper">
                     <p class="progress-text">
-                      <span>Raised</span>
-
-                      <data value="256">$256</data>
+                      <span>Pico Duarte</span>
                     </p>
 
                     <data class="progress-value" value="83">83%</data>
@@ -501,32 +305,10 @@
                     <div class="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                  <div class="card-wrapper">
-
-                    <p class="card-wrapper-text">
-                      <span>Goal</span>
-
-                      <data class="green" value="34562">$34562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>Raise</span>
-
-                      <data class="yellow" value="562">$562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>To Go</span>
-
-                      <data class="cyan" value="864">$864</data>
-                    </p>
-
-                  </div>
-
+                  <h3 class="h3 card-title">Es un destino popular para los amantes del montañismo</h3>
+                  <br>
                   <button class="btn btn-secondary">
-                    <span>Donation</span>
+                    <span>Ver Mas</span>
 
                     <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
                   </button>
@@ -540,7 +322,7 @@
               <div class="donate-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/donate-2.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                  <img src="../images/laconfuencia.jpg" width="520" height="325" loading="lazy" alt="Elephant"
                     class="img-cover">
                 </figure>
 
@@ -548,9 +330,7 @@
 
                   <div class="progress-wrapper">
                     <p class="progress-text">
-                      <span>Raised</span>
-
-                      <data value="256">$256</data>
+                      <span>La confluencia</span>
                     </p>
 
                     <data class="progress-value" value="83">83%</data>
@@ -560,32 +340,11 @@
                     <div class="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                  <div class="card-wrapper">
-
-                    <p class="card-wrapper-text">
-                      <span>Goal</span>
-
-                      <data class="green" value="34562">$34562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>Raise</span>
-
-                      <data class="yellow" value="562">$562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>To Go</span>
-
-                      <data class="cyan" value="864">$864</data>
-                    </p>
-
-                  </div>
+                  <h3 class="h3 card-title">Dirígete a este parque frente al agua</h3> 
+                  <br>
 
                   <button class="btn btn-secondary">
-                    <span>Donation</span>
+                    <span>Ver Mas</span>
 
                     <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
                   </button>
@@ -599,7 +358,7 @@
               <div class="donate-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/donate-3.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                  <img src="../images/mogote.jpg" width="520" height="325" loading="lazy" alt="Elephant"
                     class="img-cover">
                 </figure>
 
@@ -607,9 +366,7 @@
 
                   <div class="progress-wrapper">
                     <p class="progress-text">
-                      <span>Raised</span>
-
-                      <data value="256">$256</data>
+                      <span>El Mogote</span>
                     </p>
 
                     <data class="progress-value" value="83">83%</data>
@@ -619,32 +376,11 @@
                     <div class="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+                  <h3 class="h3 card-title">Te espera una vista panorámica de los verdes valles y montañas</h3>
 
-                  <div class="card-wrapper">
-
-                    <p class="card-wrapper-text">
-                      <span>Goal</span>
-
-                      <data class="green" value="34562">$34562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>Raise</span>
-
-                      <data class="yellow" value="562">$562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>To Go</span>
-
-                      <data class="cyan" value="864">$864</data>
-                    </p>
-
-                  </div>
-
+                  <br>
                   <button class="btn btn-secondary">
-                    <span>Donation</span>
+                    <span>Ver Mas</span>
 
                     <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
                   </button>
@@ -658,7 +394,7 @@
               <div class="donate-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/donate-4.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                  <img src="../images/baiguate.jpg" width="520" height="325" loading="lazy" alt="Elephant"
                     class="img-cover">
                 </figure>
 
@@ -666,9 +402,8 @@
 
                   <div class="progress-wrapper">
                     <p class="progress-text">
-                      <span>Raised</span>
+                      <span>Salto de Baiguate</span>
 
-                      <data value="256">$256</data>
                     </p>
 
                     <data class="progress-value" value="83">83%</data>
@@ -678,32 +413,46 @@
                     <div class="progress"></div>
                   </div>
 
-                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                  <div class="card-wrapper">
-
-                    <p class="card-wrapper-text">
-                      <span>Goal</span>
-
-                      <data class="green" value="34562">$34562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>Raise</span>
-
-                      <data class="yellow" value="562">$562</data>
-                    </p>
-
-                    <p class="card-wrapper-text">
-                      <span>To Go</span>
-
-                      <data class="cyan" value="864">$864</data>
-                    </p>
-
-                  </div>
+                  <h3 class="h3 card-title">Los visitantes pueden refrescarse en las piscinas naturales</h3>
 
                   <button class="btn btn-secondary">
-                    <span>Donation</span>
+                    <span>Ver Mas</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="../images/jimeno1.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Salto de Baiguate</span>
+
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Los visitantes pueden refrescarse en las piscinas naturales</h3>
+
+                  <button class="btn btn-secondary">
+                    <span>Ver Mas</span>
 
                     <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
                   </button>
@@ -716,85 +465,11 @@
           </ul>
 
         </div>
-      </section>-->
-
-
-
-
-
-      <!-- 
-        - #TESTIMONIALS
-      -->
-
-      <section class="testi">
-
-        <div class="testi-content">
-
-          <p class="section-subtitle">
-            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
-
-            <span>TCER</span>
-          </p>
-
-          <h2 class="h2 section-title">
-            BIENVENIDOS A <strong>JARABACOA</strong>
-          </h2>
-
-          <div class="testi-card">
-
-            <figure class="card-avatar">
-              <img src="./assets/images/TCER Places.PNG" width="60" height="60" loading="lazy" alt="David S. Neuman">
-            </figure>
-
-            <div>
-              <blockquote class="testi-text">
-                Ubicado a una altitud de 529 metros, este pintoresco pueblo turístico de montaña es el escape favorito de los habitantes de las ciudades de Santiago y Santo Domingo. Vienen aquí en busca de temperaturas frescas, ríos y paisajes verdes flanqueados por densos bosques de pino y montañas productoras de café. Jarabacoa,  que significa “lugar de aguas” en Taíno, es un centro de ecoturismo al que se accede fácilmente a través de modernas autopistas. Cuenta con una variedad de alojamientos encantadores, desde ranchos a orillas del río y eco-lodges hasta lujosas villas de vacaciones justo en las montañas.
-              </blockquote>
-
-              <h3 class="testi-name">TCER Places</h3>
-
-              <p class="testi-title">Tecnología de TCER.</p>
-            </div>
-
-          </div>
-
-        </div>
-
-        <figure class="testi-banner">
-          <img src="./assets/images/avenida.jpeg" width="960" height="846" loading="lazy" alt="Rhinoceros"
-            class="img-cover">
-        </figure>
-
       </section>
 
 
-
-
-
-      <!-- 
-        - #PARTNER
-      -->
-
-      <section class="section partner">
-        <div class="container">
-
-          <a href="#" class="partner-logo">
-            <img src="./assets/images/partner-1.png" width="163" height="55" alt="Non Profit Agency"
-              class="gray">
-          </a>
-
-          <a href="#" class="partner-logo">
-            <img src="./assets/images/partner-3.png" width="149" height="55"  alt="Rise Hand Help Us"
-              class="gray">
-          </a>
-
-
-        </div>
-      </section>
-
-      
-
-     <!-- <section class="section event" id="event">
+    
+      <section class="section event" id="event">
         <div class="container">
 
           <p class="section-subtitle">
@@ -916,14 +591,14 @@
           </button>
 
         </div>
-      </section>-->
+      </section>
 
 
 
 
 
       <!-- 
-        - #INSTA POST
+        - #INSTA POST-
       
 
       <section class="insta-post">
@@ -932,7 +607,7 @@
 
           <li class="insta-post-item">
             <a href="#" class="insta-post-link">
-              <img src="./assets/images/insta-1.jpg" width="320" height="300" loading="lazy" alt="Lion"
+              <img src="../images/cta-banner.jpg" width="320" height="300" loading="lazy" alt="Lion"
                 class="img-cover">
 
               <ion-icon name="logo-instagram"></ion-icon>
@@ -950,7 +625,8 @@
 
           <li class="insta-post-item">
             <a href="#" class="insta-post-link">
-              <img src="./assets/images/insta-3.jpg" width="320" height="300" loading="lazy" alt="Wild Bear"
+              <img src="./assets/images/cta-banner
+              " width="320" height="300" loading="lazy" alt="Wild Bear"
                 class="img-cover">
 
               <ion-icon name="logo-instagram"></ion-icon>
@@ -959,7 +635,7 @@
 
           <li class="insta-post-item">
             <a href="#" class="insta-post-link">
-              <img src="./assets/images/insta-4.jpg" width="320" height="300" loading="lazy" alt="Deer"
+              <img src="./assets/images/cta-banner" width="320" height="300" loading="lazy" alt="Deer"
                 class="img-cover">
 
               <ion-icon name="logo-instagram"></ion-icon>
@@ -968,7 +644,7 @@
 
           <li class="insta-post-item">
             <a href="#" class="insta-post-link">
-              <img src="./assets/images/insta-5.jpg" width="320" height="300" loading="lazy" alt="Horses"
+              <img src="./assets/images/cta-banner" width="320" height="300" loading="lazy" alt="Horses"
                 class="img-cover">
 
               <ion-icon name="logo-instagram"></ion-icon>
@@ -978,6 +654,27 @@
         </ul>
 
       </section>-->
+
+            <!-- 
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+
+          <a href="#" class="partner-logo">
+            <img src="../images/partner-1.png" width="163" height="55" alt="Non Profit Agency"
+              class="gray">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="../images/partner-3.png" width="149" height="55"  alt="Rise Hand Help Us"
+              class="gray">
+          </a>
+
+
+        </div>
+      </section>
 
     </article>
   </main>
@@ -1019,7 +716,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="../js/script.js"></script>
 
   <!-- 
     - ionicon link
